@@ -1,0 +1,27 @@
+{
+  "name": "pg-models",
+  "version": "1.0.0",
+  "description": "## PROJECT NAME",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint \"./**/*.js\"",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shepleysound/pg-models.git"
+  },
+  "author": "Robert Shepley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shepleysound/pg-models/issues"
+  },
+  "homepage": "https://github.com/shepleysound/pg-models#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "sequelize": "^6.23.0",
+    "sqlite3": "^5.1.1"
+  }
+}
