@@ -6,7 +6,8 @@ const PORT = process.env.PORT || 3002;
 require('dotenv').config();
 
 // Create associated tables and make sure
-sequelizeDB.sync()
+sequelizeDB
+  .sync()
   .then(() => console.log('Successful Connection!'))
   .catch(err => console.error(err.message));
 
