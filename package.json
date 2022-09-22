@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shepleysound/pg-models.git"
+    "url": "git+https://github.com/shepleysound/basic-api-server.git"
   },
   "author": "Robert Shepley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shepleysound/pg-models/issues"
+    "url": "https://github.com/shepleysound/basic-api-server/issues"
   },
-  "homepage": "https://github.com/shepleysound/pg-models#readme",
+  "homepage": "https://github.com/shepleysound/basic-api-server#readme",
   "dependencies": {
     "dotenv": "^16.0.2",
     "eslint": "^8.23.1",

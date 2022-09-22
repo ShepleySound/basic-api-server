@@ -1,6 +1,6 @@
 'use strict';
 
-const { sequelizeDB, People, Books } = require('./src/models');
+const { sequelizeDB } = require('./src/models');
 const { app } = require('./src/server');
 const PORT = process.env.PORT || 3002;
 require('dotenv').config();

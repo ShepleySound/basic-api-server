@@ -40,7 +40,7 @@ A basic API server built using NodeJS, Express, and PostgreSQL. Tests performed 
     npm start
   ```
 
-- Congratulations! You should now be able to access the application in your browser by navigating to https://localhost:PORT, with PORT being the port number that you specified in the .env.
+- Congratulations! You should now be able to access the application in your browser by navigating to `http://localhost:PORT`, with `PORT` being the port number that you specified in the .env.
 
 #### Endpoints
 
@@ -64,7 +64,7 @@ The following endpoints interact with a Postgres database using Sequelize. Seque
 
 - Endpoint: `/books/id`
   - Methods: GET, POST, PUT
-  - Required properties: 
+  - Required properties:
     - title (string)
     - author (string)
     - pages (integer)
@@ -73,7 +73,6 @@ The following endpoints interact with a Postgres database using Sequelize. Seque
 
 - Unit Tests: `npm run test`
 - Lint Tests: `npm run lint`
-
 
 ### To-Do
 

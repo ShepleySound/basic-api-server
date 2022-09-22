@@ -3,7 +3,7 @@
 const express = require('express');
 // Import functional middleware
 const logger = require('./middleware/logger.js');
-const validator = require('./middleware/validator.js');
+// const validator = require('./middleware/validator.js');
 
 // Import error handling files.
 const notFound = require('./middleware/error-handlers/404');
