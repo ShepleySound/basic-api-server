@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, DataTypes) => (
   sequelize.define('Books', {
     title: {
       type: DataTypes.STRING,
@@ -14,5 +14,5 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-  });
-};
+  })
+);

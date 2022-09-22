@@ -6,7 +6,7 @@ const { People } = require('../models');
 
 router.get('/people', async (req, res) => {
   const people = await People.findAll();
-  await res.status(200).json(people);
+  res.status(200).json(people);
 });
 
 router.get('/people/:id', async (req, res) => {

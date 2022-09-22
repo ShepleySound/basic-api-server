@@ -1,7 +1,7 @@
 {
-  "name": "pg-models",
+  "name": "basic-api-server",
   "version": "1.0.0",
-  "description": "## PROJECT NAME",
+  "description": "A basic API server built using express and postgresql",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

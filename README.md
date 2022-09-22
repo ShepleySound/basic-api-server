@@ -1,16 +1,19 @@
-# Code 401 Lab - XX
+# Code 401 Lab - 02
 
-## PROJECT NAME
+## Basic Express Server
+
+A basic server built using NodeJS and Express. Tests performed using Jest and SuperTest.
 
 ### Author: Robert Shepley
+
 <!-- Replace URL's and add more necessary links -->
-- [Tests Report](URL)
-- [Assignment Pull Request](URL)
-- [Heroku Prod Deployment](URL)
+- [Tests Report](https://github.com/ShepleySound/basic-express-server/actions/runs/3095394839/jobs/5009757013)
+- [Assignment Pull Request](https://github.com/ShepleySound/basic-express-server/pull/1)
+- [Heroku Prod Deployment](https://shepley-basic-express-server.herokuapp.com/)
 
-### Setup
+<!-- ### Setup -->
 
-#### Running the application locally
+<!-- #### Running the application locally
 
 - Clone the repository to your local machine, then run the following commands in your terminal -
 
@@ -31,24 +34,16 @@
     npm start
   ```
 
-- Congratulations! You should now be able to access the application in your browser by navigating to https://localhost:PORT, with PORT being the port number that you specified in the .env.
+- Congratulations! You should now be able to access the application in your browser by navigating to https://localhost:PORT, with PORT being the port number that you specified in the .env. -->
 
 #### Endpoints
 
 - Endpoint: `/`
   - Response: `The server works!`
 
-- Endpoint: `/bad`
-  - Returns JSON Object
-  
-```json
-  {
-    "error": 500,
-    "route": "/bad",
-    "query": {},
-    "message": "Bad endpoint"
-  }
-```
+- Endpoint: `/people`
+  - Parameters:
+    - name (required)
 
 ### Tests
 
@@ -57,6 +52,6 @@
 
 ### UML
 
-(Created with [diagrams](https://app.diagrams.net/))
+(Created with [diagrams.net](https://app.diagrams.net/))
 
-![UML Image](URL)
+![UML Image](basic-express-server.png)
