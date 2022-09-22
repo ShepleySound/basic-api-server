@@ -2,14 +2,14 @@
 
 ## Basic Express Server
 
-A basic server built using NodeJS and Express. Tests performed using Jest and SuperTest.
+A basic API server built using NodeJS, Express, and PostgreSQL. Tests performed using Jest and SuperTest.
 
 ### Author: Robert Shepley
 
 <!-- Replace URL's and add more necessary links -->
-- [Tests Report](https://github.com/ShepleySound/basic-express-server/actions/runs/3095394839/jobs/5009757013)
-- [Assignment Pull Request](https://github.com/ShepleySound/basic-express-server/pull/1)
-- [Heroku Prod Deployment](https://shepley-basic-express-server.herokuapp.com/)
+- [Tests Report]()
+- [Assignment Pull Request]()
+- [Heroku Prod Deployment]()
 
 <!-- ### Setup -->
 
@@ -42,8 +42,8 @@ A basic server built using NodeJS and Express. Tests performed using Jest and Su
   - Response: `The server works!`
 
 - Endpoint: `/people`
-  - Parameters:
-    - name (required)
+
+- Endpoint: `/books`
 
 ### Tests
 
