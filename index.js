@@ -8,7 +8,7 @@ require('dotenv').config();
 // Create associated tables and make sure
 sequelizeDB.sync()
   .then(() => console.log('Successful Connection!'))
-  .catch(err => console.error(err));
+  .catch(err => console.error(err.message));
 
 app.listen(PORT, () => {
   console.log(`Server started. Listening on port ${PORT}`);
